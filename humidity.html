@@ -31,10 +31,7 @@
                         <a class="nav-link" href="comparison.html">COMPARISON</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../data.html">DATA</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/CarmiSmith/Web-Design-Chanllenge.git">REPO</a>
+                        <a class="nav-link" href="data1.html">DATA</a>
                     </li>
                 </ul>
             </div>
@@ -42,16 +39,53 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-md-7 col-md-12">
-                <div class="box">
+            <div class="col-md-1 col-md-6">
+                <div class="box" style="padding-bottom: 20px;" >
                     <h1 class="title">LATITUDE vs HUMIDITY</h1>
                     <hr>
-                    <img src="Resources/assets/images/Fig2.png" class="vizualization rounded float-left" alt="Humidity Graph">
-                    <p>There seems to be no relationship between latitude and humidity. A variety of measurements of humidity can be found
+                    <img src="Resources/assets/images/Fig2.png" class="vizualization rounded float-right" alt="Humidity Graph">
+                    <p> The chart represents percentage of humidity on the y-axis with the latitude on the x-axis. There seems
+                    to be no relationship between latitude and humidity. A variety of measurements of humidity can be found
                     regardless of latitude. Regarding the data, there are some points with 0% humidity towards the north pole.<br><br><br><br></p>
                 </div>
             </div>
-         </div>
+            <div class="col-md-4 col-md-6">
+                <div class="box">
+                    <h2 class="title">VISUALIZATIONS</h2>
+                    <hr>
+                    <div class="container">
+                        <div class="row" style="padding-bottom: 70px;">
+                            <div class="col-6">
+                                <div class="title">Latitude vs Max Temp</div>
+                                <a href="temperature.html">
+                                <img class="panel" src="Resources/assets/images/Fig1.png" alt="Max Temperature Graph">
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <div class="title">Latitude vs Humidity</div>
+                                <a href="humidity.html">
+                                <img class="panel" src="Resources/assets/images/Fig2.png" alt="Humidity Graph">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row"style="padding-bottom: 70px;" >
+                            <div class="col-6">
+                                <div class="title">Latitude vs Cloudiness</div>
+                                <a href="cloudiness.html">
+                                <img class="panel" src="Resources/assets/images/Fig3.png" alt="Cloudiness Graph">
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <div class="title">Latitude vs Wind Speed</div>
+                                <a href="wind_speed.html">
+                                    <img class="panel" src="Resources/assets/images/Fig4.png" alt="Wind Speed Graph">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <footer>Humidity</footer>
 </body>
