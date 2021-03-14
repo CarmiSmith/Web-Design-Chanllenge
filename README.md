@@ -83,33 +83,19 @@ This section contains screenshots of each page that must be built, at varying sc
 
 Large screen:
 
-![Landing page large screen](Images/index_lg.png)
-
 Small screen:
-
-![Landing page small screen](Images/index-sm.png)
-￼
 
 #### <a id="comparisons-page"></a>Comparisons page
 
 Large screen:
 
-![comparison page large screen](Images/comparison-lg.png)
-
 Small screen:
-
-![comparison page small screen](Images/comparison-sm.png)
 
 #### <a id="data-page"></a>Data page
 
 Large screen:
 
-![data page large screen](Images/data1-lg.png)
-
-
 Small screen:
-
-![data page small screen](Images/data1-sm.png)
 
 #### <a id="visualization-pages"></a>Visualization pages
 
